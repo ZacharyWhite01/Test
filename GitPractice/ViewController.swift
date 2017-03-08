@@ -9,10 +9,13 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    var meow = "meow"
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        for i in 0...16{
+            print(meow)
+        }
     }
 
     override func didReceiveMemoryWarning() {
